@@ -1,0 +1,143 @@
+doctype html
+html
+  head
+    title Star Chow - Resume
+    meta name="keywords" content="My Resume"
+    meta name="author" content='StarChow'
+    / /! Latest compiled and minified CSS
+    / link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" 
+    / /! Optional theme
+    / link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet" 
+    / /! Latest compiled and minified JavaScript
+    / script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" 
+    link rel='stylesheet' type='text/csss' href='css/bootstrap.min.css'
+    link rel='stylesheet' type='text/csss' href='css/font-awesome.min.css'
+    link rel='stylesheet' type='text/csss' href='css/jumbotron-narrow.css'
+    script type='text/javascript' src='js/jquery.min.js'
+    script type='text/javascript' src='js/bootstrap.min.js'
+
+  body screen_capture_injected="true" 
+    .container
+      .header
+        ul.nav.nav-pills.pull-right
+          li
+            a#print href="#" 
+              i.fa.fa-print
+        h3.text-muted Resume
+      .jumbotron
+        h2 Star Chow
+        h4 Ruby on Rails Developer
+        a.thumbnail.avatar href="#" 
+          img alt="avatar" src="images/avatar.png" 
+        ul.list-unstyled
+          li
+            i.fa.fa-home
+            | 10/7 street 68, district 9, Ho Chi Minh city, Vietnam
+          li
+            i.fa.fa-phone
+            | +84-903-856-534
+          li
+            i.fa.fa-envelope
+            | puma.puma07@gmail.com
+          li
+            a.btn.btn-link href='http://twitter.com/starch0w' target='blank'
+              i.fa.fa-twitter
+            a.btn.btn-link href='http://facebook.com/starch0w' target='blank'
+              i.fa.fa-facebook
+            a.btn.btn-link href='http://github.com/starchow' target='blank'
+              i.fa.fa-github
+        blockquote
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+          footer
+            | Someone famous in
+            cite title=("Source Title")  Source Title
+      .row.marketing
+        .col-lg-12
+          h4 Skills
+          hr
+          .row
+            .col-lg-6
+              h4 Programming
+              ul.list-unstyled
+                li
+                  span.label.label-primary Ruby
+                  | 3 years
+                li
+                  span.label.label-primary HTML
+                  | 4 years
+                li
+                  span.label.label-primary CSS
+                  | 4 years
+                li
+                  span.label.label-primary Javascript
+                  | 3 years
+            .col-lg-6
+              h4 Language
+              ul.list-unstyled
+                li
+                  span.label.label-primary Vietnamese
+                  | Mother tongue
+                li
+                  span.label.label-success English
+                  | Fluent
+        .col-lg-12
+          h4 Educations
+          hr
+          a href='#' target='blank'
+            i.fa.fa-building-o
+            | Nguyen Huu Huan High School
+          h5 2003-2006
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          a href='http://tdt.edu.vn' target='blank'
+            i.fa.fa-building-o
+            | Ton Duc Thang University
+          h5 2006-2010
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+        .col-lg-12
+          h4 Work Experiences
+          hr
+          a href='#' target='blank'
+            i.fa.fa-laptop
+            | Kylobytes
+          h5 2010-2012
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          a href='http://nexlesoft.com' target='blank'
+            i.fa.fa-laptop
+            | Nexlesoft
+          h5 2012-Current
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+        .col-lg-12
+          h4 Projects
+          hr
+          a href='#' target='blank'
+            i.fa.fa-users
+            | Jolly Social Network
+          h5 2011-2012
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          a href='#' target='blank'
+            i.fa.fa-umbrella
+            | Findereat
+          h5 2012-2013
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+        .col-lg-12
+          h4 Interests
+          hr
+          a href='#' target='blank'
+            i.fa.fa-plane
+            | Traveling
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          a href='#' target='blank'
+            i.fa.fa-fighter-jet
+            | Mountain-bikes
+          p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+      .footer
+        p © Company 2014
+
+javascript:
+  $('#print').click(function() {
+    window.print();
+  })
